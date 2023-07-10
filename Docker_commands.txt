@@ -1,0 +1,4 @@
+# example of build and push commands
+docker build --no-cache -t sleap:latest .
+docker tag sleap padillacoreanolab/sleap:latest
+docker push padillacoreanolab/sleap:latest
