@@ -24,7 +24,7 @@ if %errorlevel% == 0 (
     echo.
 
     echo Running Docker Container:  sleap_c...
-    docker run --name sleap_c --gpus all --log-driver=json-file padillacoreanolab/sleap:latest bash -c "source activate sleap &&  sleap-label"
+    docker run --name sleap_c --gpus all padillacoreanolab/sleap:latest bash -c "source activate sleap &&  sleap-label"
 
     pause
 
